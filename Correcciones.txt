@@ -1,0 +1,7 @@
+//agregar a la cadena de conexión de Scaffold
+
+TrustServerCertificate=True;
+
+Scaffold-DbContext "Server=(local); DataBase=(basedatos);Integrated Security=true" Microsoft.EntityFrameworkCore.SqlServer -OutPutDir Models
+
+
